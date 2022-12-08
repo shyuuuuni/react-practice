@@ -9,6 +9,7 @@ const useOutsideClickHandler = (
 ): void => {
   useEffect(() => {
     const handleClickOutside = (e: Event): void => {
+      console.log("Handle Click!", ref.current);
       if (ref.current === null || ref.current.contains(e.target as Node)) {
         return;
       }

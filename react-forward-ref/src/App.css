@@ -1,6 +1,13 @@
 .App {
-  display: block;
-  margin-left: 300px;
-  margin-top: 300px;
+  display: flex;
+  gap: 5px;
   align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
+
+.App button {
+  width: 100px;
+  height: 30px;
 }
